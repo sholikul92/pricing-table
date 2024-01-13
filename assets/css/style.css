@@ -30,8 +30,6 @@ main {
   justify-content: center;
   height: 80vh;
   max-width: 950px;
-  max-height: 1000vh;
-  /* border: 1px solid white; */
 }
 
 .pricing-plan {
@@ -51,17 +49,7 @@ main {
 }
 
 .pricing-logo {
-  width: 100px;
-  display: inline-block;
-}
-
-.pricing-logo.biking {
-  height: 18.5%;
-}
-
-.pricing-logo.sedan {
-  margin-top: 39px;
-  transform: scale(1.5);
+  width: 40%;
 }
 
 .pricing-title {
@@ -118,7 +106,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    min-height: 260vh;
+    min-height: 250vh;
     gap: 10px;
   }
 
@@ -134,14 +122,6 @@ main {
 
   .pricing-logo {
     transform: scale(1.5);
-  }
-
-  .pricing-logo.biking {
-    height: 12%;
-  }
-
-  .pricing-logo.sedan {
-    transform: scale(2.5);
   }
 
   .pricing-title {
@@ -176,18 +156,6 @@ main {
 
   .pricing-plan:hover {
     border: 5px solid var(--primary-color);
-  }
-
-  .pricing-logo {
-    transform: scale(1.1);
-  }
-
-  .pricing-logo.biking {
-    height: 12%;
-  }
-
-  .pricing-logo.sedan {
-    transform: scale(1.7);
   }
 
   .pricing-title {
